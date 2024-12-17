@@ -27,6 +27,9 @@
                 </form>
             </div>
             <a href="uploadImg.jsp"><img src="icon.png" width="90" height="" alt="alt"/></a>
+            
+            <a href="insertImg.jsp"><img src="logo2.png" width="200" height="" alt="alt"/></a>
+            
     </nav>
          
         

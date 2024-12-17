@@ -17,7 +17,7 @@
     <body>
             
     <%@include file="index.jsp" %>  
-                <div class="m-12 flex gap-4">
+                <div class="m-12 flex gap-4 flex-wrap">
         <% // String st = (String) session.getAttribute("image");
                 String search =request.getParameter("catg");
             try {
@@ -31,7 +31,7 @@
                 while(rs.next()) {
         %>
 
-        <img src="pics/<%=rs.getString("image_filename")%>"  width="300px" class="shadow-xl" alt="Not Found"/>
+        <img src="pics/<%=rs.getString("image_filename")%>"  width="400px" class="shadow-xl" alt="Not Found"/>
  <%
 
             }
