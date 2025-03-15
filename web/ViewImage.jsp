@@ -18,7 +18,7 @@
             
     <%@include file="index.jsp" %>  
                 <div class="m-12 flex gap-4 flex-wrap">
-        <% // String st = (String) session.getAttribute("image");
+        <% 
                 String search =request.getParameter("catg");
             try {
 
